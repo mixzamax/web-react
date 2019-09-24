@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
+
+h6{
+    margin: 0px;
+}
+h4{
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.Body{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 100%;
+    /* background: url(../img/body.jpg); */
+    border-right: solid 2px #99CCFF;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Itim', cursive;
+    
+
+}
+
+.item{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 230px;
+    width: 150px;
+    /* border: solid 1px black; */
+    background: rgb(241, 238, 238,0.85);
+    border-radius: 50px;
+    margin: 10px;
+    animation: show 0.5s ;
+
+}
+.item:hover{
+    border: solid 4px #6699FF;
+}
+
+.item-pic{
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    border: solid 1px red;
+}
+
+.item-name{
+    
+}
+
+.item-info{
+
+}
+
+@keyframes show{
+
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0); 
+    }
+
+}

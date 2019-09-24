@@ -1,0 +1,9 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+html{
+    background: url(./img/body.jpg);
+}
